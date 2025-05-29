@@ -1,0 +1,80 @@
+.AppHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+/* LEFT HEADER: Dashboard title + Search */
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.left-header h1 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  font-weight: 600;
+  margin: 0;
+}
+
+ .search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 8px;
+  width: 450px; /* ⬅️ Increased width */
+}
+
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  margin-left: 8px;
+  outline: none;
+  font-size: 0.875rem;
+  color: #2d3748;
+}
+
+.search-icon {
+  color: #718096;
+  width: 16px;
+  height: 16px;
+}
+
+/* RIGHT HEADER: Greeting + Person Icon */
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.greeting {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #cbd5e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-icon {
+  width: 18px;
+  height: 18px;
+  color: #2d3748;
+}
